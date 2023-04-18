@@ -7,7 +7,7 @@ body {
     background-color: #dbc6c6;
 }
 header {
-    background-color: #722361;
+    background-color: #4e093f;
     color: white;
     padding: 3rem 2rem;
 }
@@ -23,6 +23,7 @@ header h1 {
 
 section article {
     transition: box-shadow 0.3s ease;
+    transition: background-color 0.3s ease;
     background-color: #FFFFFF;
     margin: 1rem 0;
     border-radius: 0.5rem;
@@ -36,7 +37,8 @@ section article h3, section article p {
 
 section article:hover {
     box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.6);
-
+    background-color: #9c3f88;
+    color: white;
 }
 
 footer {
