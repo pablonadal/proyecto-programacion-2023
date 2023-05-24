@@ -1,0 +1,12 @@
+.card {
+    transition: box-shadow 0.3s ease;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    background-color: rgb(241, 241, 106);
+}
+
+.card:hover {
+    box-shadow: 0 0.1rem 2rem rgba(0, 0, 0, 0.6);
+    background-color: #9c3f88;
+    color: white;
+}
